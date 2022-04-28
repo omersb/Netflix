@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:wght@100&family=Sorts+Mill+Goudy:ital@1&display=swap');
 
 *{
     margin: 0;
@@ -53,16 +53,22 @@ span{
     padding: 15px 10px;    
     margin-top: 10px;
     margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 select{
     width: 90%;
     padding: 7px 10px;    
     margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .box{
-    padding-top: 15px;    
+    padding-top: 15px; 
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 #feed{
