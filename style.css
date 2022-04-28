@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./background_image.jpg");
+    color: white;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Bowlby One SC', cursive;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-size: 40px;    
+}
+
+span{
+    color: red;
+}
+
+#description{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+}
+
+#survey-form{
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    margin: auto;
+    padding: 35px;
+    padding-left: 45px;
+}
+
+.box4 input{
+    width: 95%;
+    padding: 15px 10px;    
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+select{
+    width: 90%;
+    padding: 7px 10px;    
+    margin-top: 10px;
+}
+
+.box{
+    padding-top: 15px;    
+}
+
+#feed{
+    width: 80%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 35px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-60%);
+    border: 0;
+    font-size: large;
+}
+
+@media only screen and (max-width: 375px) {
+    #description{
+        font-size: 16px;
+    }
+
+    .box4 input{
+        padding: 5px 10px;    
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    select{
+        padding: 2px 5px;    
+        margin-top: 5px;
+    }
+    
+    .box{
+        padding-top: 10px;    
+    }
+    
+    #feed{
+        height: 70px;
+    }
+
+    input[type=submit]{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
